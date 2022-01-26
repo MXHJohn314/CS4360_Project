@@ -50,7 +50,7 @@ namespace Facilicase2.Services
             http.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue(
                 "Basic",
                 Convert.ToBase64String(
-                    System.Text.Encoding.ASCII.GetBytes("admins:Snarfblat")));
+                    System.Text.Encoding.ASCII.GetBytes("username:password")));
 
 
             http.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
